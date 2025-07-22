@@ -1,0 +1,221 @@
+
+.ser-title{
+  color: #212529;
+}
+
+.services-boxs{
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  /* box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%); */
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 0px 0 12px 0 rgb(8 149 231 / 62%);
+  /* box-shadow: 0px 0px 0px 4px #f2f2f2; */
+  /* width: 245px;
+  height: 270px; */
+  width: 286px;
+  height: 316px;
+}
+
+.srvices-mainhead {
+  color: #107eb0;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 70px;
+}
+
+@media (max-width:1366px){
+  .services-boxs{
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    /* box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%); */
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0px 0 12px 0 rgb(8 149 231 / 62%);
+    /* box-shadow: 0px 0px 0px 4px #f2f2f2; */
+    /* width: 245px;
+    height: 270px; */
+    width: 260px;
+    height: 298px;
+  }
+
+  .services-tille{
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width:1024px){
+  .services-boxs {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    /* box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%); */
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0px 0 12px 0 rgb(8 149 231 / 62%);
+    /* box-shadow: 0px 0px 0px 4px #f2f2f2; */
+    width: 197px;
+    height: 238px;
+}
+.services-tille{
+  font-size: 14px;
+}
+}
+
+@media (max-width:912px){
+  .services-boxs {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    /* box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%); */
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0px 0 12px 0 rgb(8 149 231 / 62%);
+    /* box-shadow: 0px 0px 0px 4px #f2f2f2; */
+    width: 150px;
+    height: 190px;
+}
+.services-tille{
+  font-size: 13px;
+}
+.srvices-mainhead {
+  color: #107eb0;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+}
+
+
+@media (max-width:767px){
+  .mainbox{
+    padding-top: 20px;
+    text-align: -webkit-center;
+  }
+
+  .services-boxs {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    /* box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%); */
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0px 0 12px 0 rgb(8 149 231 / 62%);
+    /* box-shadow: 0px 0px 0px 4px #f2f2f2; */
+    width: 266px;
+    height: 300px;
+}
+.sevices-part{
+  padding-top: 10px !important;
+}
+}
+
+
+/********************************** Contact us css ***********************/
+
+.contact-box{
+   border: 1px solid #03a9f4;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px #03a9f4;
+    border-radius: 5px;
+    padding-top: 0px;
+   
+}
+
+.head-contact{
+  color: #107eb0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text-color{
+  color: orange;
+}
+
+.phone-info h4 span i {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  background-color: #03a9f4;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+
+.main-addpara{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+@media (max-width:1024px){
+  .add-para{
+    font-size: 12px;
+  }
+  
+  .main-addpara{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width:912px){
+  .add-para{
+    font-size: 13px;
+  }
+  
+  .main-addpara{
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+
+
+form#contact {
+   position: relative;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px; 
+    /* box-shadow: 0px 0px 10px 0px #03a9f4;; */
+    box-shadow: 0px 0px 10px 0px #c7cfd3;
+    margin-left: 0px;
+}
+
+form#contact input {
+  width: 100%;
+  height: 46px;
+  border-radius: 5px;
+  /* background-color: #d1f3ff; */
+  /* border: none; */
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width:767px){
+  .fillform{
+    padding-top: 20px;
+  }
+}
